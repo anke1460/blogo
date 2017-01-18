@@ -40,6 +40,7 @@ module Blogo
     def markup_lang=(lang)
       # Try to find a renderer for the format otherwise raise
       Blogo::Renderer.get(lang.to_sym)
+      @markup_lang = lang
       @format = lang.to_sym
     end
   end
