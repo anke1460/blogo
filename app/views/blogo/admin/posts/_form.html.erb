@@ -49,6 +49,18 @@
       format: 'YYYY-MM-DD'
     });
 
+    var editor = new Simditor({
+      textarea: $('#post_raw_content'),
+      placeholder: '请输入正文',
+      defaultImage: '/assets/image.png',
+      upload: {
+        fileKey: 'upload',
+        url: '/blog/admin/images',
+        leaveConfirm: '正在上传文件，如果离开上传会自动取消'
+      },
+      pasteImage: true
+    });
+
     $('#post-title').titleToUrl('#permalink')
 
     var preview = new PostPreview('button-preview', 'post-form', '<%= blogo_admin_post_preview_path %>', 'modal-preview');

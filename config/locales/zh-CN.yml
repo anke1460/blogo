@@ -1,4 +1,9 @@
 zh-CN:
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      long: "%Y-%m-%d"
+      short: "%b-%d"
   blogo:
     user:
       comments: '评论'

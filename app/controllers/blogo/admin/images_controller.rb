@@ -25,7 +25,7 @@ module Blogo::Admin
         File.binwrite(file_path, upload_io.read)
       end
 
-      @image_path = File.join('/', image_directory, image_name)
+      render json: {:success => @error ? false : true,:msg=> @error, :file_path=>"#{File.join('/', image_directory, image_name)}" }
     end
 
 

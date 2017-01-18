@@ -11,3 +11,7 @@
 //= require blogo/moment
 //= require blogo/pikaday
 //= require_tree ./helpers
+//= require simditor/module
+//= require simditor/hotkeys
+//= require simditor/uploader
+//= require simditor/simditor
