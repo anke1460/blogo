@@ -14,7 +14,7 @@
 //= require simditor/module
 //= require simditor/hotkeys
 //= require simditor/uploader
+//= require simditor/simditor
 //= require simditor/marked
 //= require simditor/to-markdown
 //= require simditor/simditor-markdown
-//= require simditor/simditor
