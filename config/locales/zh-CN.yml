@@ -28,6 +28,7 @@ zh-CN:
       login_button: '登录'
       login_fail: '用户名或密码不正确'
       modal_confirm_delete_post: '真的要删除文章"%{post_title}"吗?'
+      modal_confirm_delete_category: '真的要删除文章"%{category_name}"吗?'
       modal_title_close_preview: '关闭预览'
       new_post: '新文章'
       password: '密码'
@@ -50,3 +51,4 @@ zh-CN:
       today: '现在'
       unique_permalink: '永久链接(唯一)'
       recent_comments: '最近评论'
+      categories: '目录'
